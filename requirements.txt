@@ -5,3 +5,4 @@ psycopg
 alembic
 google-auth
 requests
+pydantic-settings
