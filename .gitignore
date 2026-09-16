@@ -1,0 +1,35 @@
+# Environment & secrets
+.env
+.env.*
+.env.local
+!.env.example
+
+# Local SQLite databases (development artifacts)
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Distribution / build
+*.egg-info/
+build/
+dist/
